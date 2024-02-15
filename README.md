@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE :15-02-2024
+## NAME :KEERTHANA.V																		             
+## ROLLNUMBER :212223220045
+## DEPARTMENT :INFORMATION TECHNOLOGY
 
 
 ## AIM:
@@ -62,24 +62,37 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
- 
+```
+ int led=4;
+int pushbutton=3;
 
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
 
-
-
-
-
-
-
-
- 
- 
- 
-
-
-
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+   if (pb==HIGH)
+   {
+    
+  digitalWrite(led, HIGH);
+  delay(500); 
+  digitalWrite(led, LOW);
+  delay(500); 
+}
+    else
+    {   delay(500);
+          digitalWrite(led,LOW);
+    }
+}
+```
 ## OUTPUT OF SIMULATION :
 
-[My image](username.github.com/repository/img/image.jpg)
+<img width="639" alt="EX-01" src="https://github.com/Keerthana-VJ/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/149347704/f97a57ce-a241-448a-8c18-4cd34893a4b5">
+<img width="453" alt="Ex-01 (2)" src="https://github.com/Keerthana-VJ/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/149347704/35807c76-8c2c-4329-9c3a-259cc1d3481c">
+
 
