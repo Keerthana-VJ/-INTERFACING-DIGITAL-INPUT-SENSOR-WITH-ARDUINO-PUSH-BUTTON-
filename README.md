@@ -95,4 +95,7 @@ void loop()
 <img width="639" alt="EX-01" src="https://github.com/Keerthana-VJ/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/149347704/f97a57ce-a241-448a-8c18-4cd34893a4b5">
 <img width="453" alt="Ex-01 (2)" src="https://github.com/Keerthana-VJ/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/149347704/35807c76-8c2c-4329-9c3a-259cc1d3481c">
 
+## RESULT:
+Thus the digital interfacing of circuit using Arduino circuit is completed successfully by tinkercard.
+
 
